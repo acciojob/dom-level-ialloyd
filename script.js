@@ -2,6 +2,7 @@
 
 function findLevel(id) {
   let level = 1;
+	
   let element = document.getElementById(id);
   while (element.parentNode) {
     element = element.parentNode;
